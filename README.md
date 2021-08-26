@@ -26,6 +26,8 @@ pipenv install
 uvicorn main:app --reload
 ```
 
+# Start with Docker Locally
+
 ```
 # Docker build
 docker build  Containerized-Scrapping-with-Selenium-FastAPI
@@ -35,7 +37,7 @@ docker run -d  -p 8000:8000  Containerized-Scrapping-with-Selenium-FastAPI
 
 ```
 
-## About
+## Details
 
 <details>
 <summary><strong>Contributing</strong></summary>
