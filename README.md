@@ -1,32 +1,39 @@
-# Containerized-Selenium-FastAPI
+# Containerized-Scrapping-with-Selenium-FastAPI
 
-Running a Docker Container with Fast API, and requesting data using selenium
+Building and Running a Docker Container and Scrapping data using Selenium and with Fast API
 
-The main objective of this repository is to deploy a Docker container with both, FastAPI and Selenium, to check the possibilities when we try to use FastAPI to receive parameters, and run a selenium process in the background to gather and parse data.
+The main goal of this repository is to deploy a Docker container with both, FastAPI and Selenium, to check the possibilities when we try to use FastAPI to receive parameters, and run a selenium process in the background to gather and parse data.
 This example uses Selenium to make google search and scrap the links
 
 ## Build Setup
 
 ```
 # Clone repo and cd into directory
-git clone https://github.com/Prasundas99/mydiary.git
+git clone https://github.com/Shubhamdutta2000/Containerized-Scrapping-with-Selenium-FastAPI.git
+cd Containerized-Scrapping-with-Selenium-FastAPI
 ```
 
 ```
 # Install dependencies locally
 pip install pipenv
-pip shell
+pipenv shell
 pipenv install
+```
+
+# How to Start
 
 ```
+uvicorn main:app --reload
+```
+
 ```
 # Docker build
-docker build  Containerized-Selenium-FastAPI
-docker run -d  -p 8080:8080  Containerized-Selenium-FastAPI
+docker build  Containerized-Scrapping-with-Selenium-FastAPI
+
+# Docker Run
+docker run -d  -p 8000:8000  Containerized-Scrapping-with-Selenium-FastAPI
 
 ```
-
-
 
 ## About
 
@@ -38,6 +45,7 @@ Pull requests and stars are always welcome. For bugs and feature requests, [plea
 </details>
 
 ### License
+
 Released under the [MIT License](LICENSE).
 
-***
+---
