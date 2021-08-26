@@ -1,0 +1,9 @@
+selenium==3.141.0
+fastapi==0.61.1
+bs4==0.0.1
+beautifulsoup4==4.8.2
+uvicorn==0.12.1
+gunicorn==20.0.4
+webdriver-manager
+selenium-wire
+msedge-selenium-tools
