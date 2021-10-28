@@ -35,6 +35,11 @@ docker build  Containerized-Scrapping-with-Selenium-FastAPI
 # Docker Run
 docker run -d  -p 8000:8000  Containerized-Scrapping-with-Selenium-FastAPI
 
+OR
+
+# Docker compose
+docker-compose up --build
+
 ```
 
 ## Details
